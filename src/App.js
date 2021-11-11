@@ -1,12 +1,12 @@
 import './App.css';
-import Ccomponent from './Ccomponent';
+import List from './components/List/List';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Ccomponent/>
-      </header>
+      <div className="wrapper">
+        <List/>
+      </div>
     </div>
   );
 }
